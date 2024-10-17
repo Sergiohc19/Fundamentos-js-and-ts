@@ -42,5 +42,18 @@ const technologies3 = technologies.filter(function(tech) {
 })
 
 console.table(technologies3)
+// Con el Método map accede a los elementos del array y los modifica
+const technologies4 = technologies.map(function(tech) {
+    if(tech === "React.js") { //* Si tech es igual a React.js devuelve React.js y los demás items 
+                                //* no los devuelve
+        return "React.js"
+    }
+})
+console.table(technologies4)
 
 
+
+const technologies5 = technologies.map(function(tech) {
+   return tech === "Node.js" ? "Node.js" : tech;
+});
+console.table(technologies5)
