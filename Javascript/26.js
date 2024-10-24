@@ -8,11 +8,8 @@ fetch(url)
    error === 500 ? console.error(`Error ${error}: Error en la conexión a internet`) :
    console.log(`Error ${error}: Error en la respuesta`));
 
-
-  
-
-
-//?En las siguientes lineas es otra forma de hacerlo, pero con cosas que mejorar, se ha mejorado el manejo de errores
+   
+//?En las siguientes lineas es otra forma de hacerlo, pero con cosas que mejorar, se ha mejorado el manejo de errores en el caso anterior
 // const url = "https://jsonplaceholder.typicode.com/comments"
 
 // fetch(url)
