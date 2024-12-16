@@ -1,0 +1,12 @@
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.json linguist-language=JSON
+*.css linguist-language=CSS
+*.scss linguist-language=CSS
+*.html linguist-language=HTML
+
+
+*.html linguist-language=plaintext
+*.css linguist-language=plaintext
